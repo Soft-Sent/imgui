@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{71608D5B-A629-3E0D-B5B1-FFA40191747F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C} = {6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}
+		{66475135-3539-3DF7-A228-EF083482A994} = {66475135-3539-3DF7-A228-EF083482A994}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\..\\ZERO_CHECK.vcxproj", "{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imgui", "imgui.vcxproj", "{66475135-3539-3DF7-A228-EF083482A994}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C} = {6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		Distribution|x64 = Distribution|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71608D5B-A629-3E0D-B5B1-FFA40191747F}.Debug|x64.ActiveCfg = Debug|x64
+		{71608D5B-A629-3E0D-B5B1-FFA40191747F}.Release|x64.ActiveCfg = Release|x64
+		{71608D5B-A629-3E0D-B5B1-FFA40191747F}.Distribution|x64.ActiveCfg = Distribution|x64
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}.Debug|x64.ActiveCfg = Debug|x64
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}.Debug|x64.Build.0 = Debug|x64
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}.Release|x64.ActiveCfg = Release|x64
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}.Release|x64.Build.0 = Release|x64
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}.Distribution|x64.ActiveCfg = Distribution|x64
+		{6B6A9BA0-1D8A-34E0-B347-E4753564DE1C}.Distribution|x64.Build.0 = Distribution|x64
+		{66475135-3539-3DF7-A228-EF083482A994}.Debug|x64.ActiveCfg = Debug|x64
+		{66475135-3539-3DF7-A228-EF083482A994}.Debug|x64.Build.0 = Debug|x64
+		{66475135-3539-3DF7-A228-EF083482A994}.Release|x64.ActiveCfg = Release|x64
+		{66475135-3539-3DF7-A228-EF083482A994}.Release|x64.Build.0 = Release|x64
+		{66475135-3539-3DF7-A228-EF083482A994}.Distribution|x64.ActiveCfg = Distribution|x64
+		{66475135-3539-3DF7-A228-EF083482A994}.Distribution|x64.Build.0 = Distribution|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC6691F6-6350-3539-A9B9-430BAE1CDA4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
